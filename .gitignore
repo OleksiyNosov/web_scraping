@@ -1,7 +1,12 @@
 # python and pip folders and files
 bin/
 include/
-lib/python3.6/
+lib/
 .Python
 pip-selfcheck.json
+
+# ignore selenium files
+selenium/
+
+# ignore mac system files
 .DS_Store
