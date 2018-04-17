@@ -1,0 +1,6 @@
+# python and pip folders and files
+bin/
+include/
+lib/python3.6/
+.Python
+pip-selfcheck.json
