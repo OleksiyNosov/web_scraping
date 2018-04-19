@@ -8,5 +8,11 @@ pip-selfcheck.json
 # ignore selenium files
 selenium/
 
+# ignore files with scraoed data
+scraped_data/
+
+# ignore log files
+*.log
+
 # ignore mac system files
 .DS_Store
