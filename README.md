@@ -15,11 +15,17 @@ pip install selenium
 
 pip install bs4
 
+pip install numpy
+
 pip install pandas
 
 pip install lxml
 
 pip install tabulate
+
+pip install plotly
+
+pip install matplotlib
 ```
 
 ## Start
