@@ -15,7 +15,7 @@ def write_all_to_file(text, filename):
   path = os.getcwd()
 
   # Open, Write and Close file
-  file = open(path + "/scraped_data/" + filename, "w")
+  file = open(path + "/data/" + filename, "w")
   file.write(text)
   file.close()
 
@@ -24,7 +24,7 @@ def append_line_to_file(line, filename):
   path = os.getcwd()
 
   # Open, Write and Close file
-  file = open(path + "/scraped_data/" + filename, "a+")
+  file = open(path + "/data/" + filename, "a+")
   file.write(line + "\n")
   file.close()
 
@@ -86,7 +86,3 @@ for i in range(1, 76):
 
 # End the Selenium browser session
 driver.quit()
-
-
-
-
