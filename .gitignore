@@ -10,6 +10,7 @@ selenium/
 
 # ignore files with scraoed data
 scraped_data/
+data/
 
 # ignore log files
 *.log
